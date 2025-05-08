@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Save confirmed</title>
+</head>
+<body>
+	<h3>Success!</h3>
+	<span th:text="${employee.firstName} + ${employee.lastName} + ' saved.'"></span>
+	<hr>
+	<br><br>
+	<a th:href="@{/employees/list}">Go back to employee list.</a>
+</body>
+</html>

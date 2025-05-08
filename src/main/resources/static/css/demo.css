@@ -1,0 +1,8 @@
+.error {
+	font-style: italic;
+	color: red;
+}
+.info {
+	font-style: bold;
+	color: green;
+}
